@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <%= require('html-loader!./layout/head-common.html')  %>
-        <title><%= htmlWebpackPlugin.options.title%> - YeMall电商平台</title>
+        <title><%= htmlWebpackPlugin.options.title%>YeMall电商平台</title>
     </head>
     <body>
         <%= require('html-loader!./layout/nav.html')  %>
@@ -11,17 +11,31 @@
             <div class="w">
                 <div class="crumb-con">
                     <a class="link" href="./index.html">YeMall</a>
-                    <span>></span>
-                    <span class="link-text"><%= htmlWebpackPlugin.options.title%></span>
+                    <span> -> </span>
+                    <span class="link-text">
+                        关于pipikai
+                        <!-- <%= htmlWebpackPlugin.options.title%></span> -->
                 </div>
             </div>
         </div>
         <div class="page-wrap w">
             <div class="panel">
-                <h1 class="panel-title">关于我们</h1>
+                <h1 class="panel-title">一个简洁的个人电商学习项目</h1>
+                <div class="panel-body">前端（www.pipikai.xin）-基于JQuery+CSS</div>
+                <div class="panel-body">前端admin（admin.pipikai.xin) - 基于React+Sass</div>
+                <div class="panel-body">后端 - 基于Spring+SpringMVC+Mybatis</div>
                 <div class="panel-body">
-                    欢迎访问Yemall。
+                    源码 -
+                    <a class="link"  href="https://github.com/wanzhangkai" target="_blank">Github</a>
                 </div>
+                <div class="panel-body">
+                    简历 -
+                     <a class="link"  href="http://img.pipikai.xin/f1358269-b740-49ae-8cb1-e9a1a0d3242c.htm" target="_blank">pipikai</a>
+                </div>
+                <div class="panel-body">邮箱 - wanzhangkai@foxmail.com</div>
+
+
+
             </div>
         </div>
         <%= require('html-loader!./layout/footer.html')  %>
