@@ -1,0 +1,24 @@
+
+.top{
+   
+    /*color: #C60023;*/
+    background: #C60023;
+    padding-bottom: 10px;
+}
+
+.top .links{
+    text-align: center;
+    color: #FFFFFF;
+    /*line-height: 30px;*/
+}
+
+.top .links .link{
+    padding: 0 0px;
+}
+
+.top .copyright{
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 40px;
+
+}
