@@ -5,8 +5,10 @@
         <!-- <title><%= htmlWebpackPlugin.options.title%>Yemall电商平台</title> -->
         <title>Yemall - a dream about buying</title>
     </head>
+    <body1>
+    <%= require('html-loader!./layout/top.html')  %>
+    </body1>
     <body>
-         <%= require('html-loader!./layout/top.html')  %>
         <%= require('html-loader!./layout/nav.html')  %>
         <%= require('html-loader!./layout/header.html')  %>
         <div class="w">
