@@ -6,9 +6,11 @@
             <%= htmlWebpackPlugin.options.title%>
         </title>
     </head>
+    <body>
+    <%= require('html-loader!./layout/nav.html')  %>
+    <%= require('html-loader!./layout/header.html')  %>
+    </body>
     <body1>
-        <%= require('html-loader!./layout/nav.html')  %>
-        <%= require('html-loader!./layout/header.html')  %>
         <div class="crumb">
             <div class="w">
                 <div class="crumb-con">
@@ -36,7 +38,7 @@
                 </div>
                 <div class="panel-body">
                     简历 -
-                     <a class="link"  href="http://img.pipikai.xin/92354fb8-d057-4e3f-9452-1d348d90846b.pdf" target="_blank">pipikai</a>
+                     <a class="link"  href="http://img.pipikai.xin/521e8934-0ecc-46a1-8228-4321a5b670b0.pdf" target="_blank">pipikai</a>
                 </div>
                 <div class="panel-body">邮箱 - wanzhangkai@foxmail.com</div>
 
